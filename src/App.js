@@ -1,11 +1,10 @@
-import './App.css';
+import React from 'react';
+import Navbar from './components/NavBar/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <div className="alert alert-primary" role="alert">
-          A simple primary alert—check it out! Maria
-      </div>
+      <Navbar/>
     </div>
   );
 }
